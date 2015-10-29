@@ -1,0 +1,383 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8">
+	<title>My App page</title>
+	<meta name="description" content="mobile app">
+
+	<!-- Latest compiled and minified CSS -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" integrity="sha512-dTfge/zgoMYpP7QbHy4gWMEGsbsdZeCXz7irItjcC3sPUFtf0kuFbDz/ixG7ArTxmDjLXDmezHubeNikyKGVyQ==" crossorigin="anonymous">
+	<!-- Optional theme -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap-theme.min.css" integrity="sha384-aUGj/X2zp5rLCbBxumKTCw2Z50WgIr1vs/PFN4praOTvYXWlVyh2UtNUU0KAUhAX" crossorigin="anonymous">
+</head>
+	<style>
+	body{
+		padding-top: 40px;
+	}
+	</style>
+
+<body data-spy="scroll" data-target="#my-navbar">
+
+	<!--Navbar-->
+	<nav class="navbar navbar-inverse navbar-fixed-top" id="my-navbar">
+		<div class="container">
+
+			<div class="navbar-hearder">
+				<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-collapse"> 
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+				</button>
+				<a href="" class="navbar-brand">App web</a>
+			</div>
+
+			<div class="collapse navbar-collapse" id="navbar-collapse">
+			<a href="" class="btn btn-info navbar-btn navbar-right">Download Now</a>
+				<ul class="nav navbar-nav">
+					<li><a href="#feedback">Feedback</a></li>
+					<li><a href="#gallery">Gallery</a></li>
+					<li><a href="#features">Features</a></li>
+					<li><a href="#FAQ">FAQ</a></li>
+					<li><a href="#contact">Contact Us</a></li>
+				</ul>
+			</div>
+
+		</div><!--End Container-->
+	</nav><!--End Navbar-->
+
+	<!--jumbotron-->
+	<div class="jumbotron">
+		<div class="container text-center">
+			<h1>Welcome to my website</h1>
+			<p>this is the app page designed using bootstrap</p>
+			<div class="btn-group">
+				<a href="" class="btn btn-lg btn-info">Download App</a>
+				<a href="" class="btn btn-lg btn-default">Visit store</a>
+				<a href="" class="btn btn-lg btn-warning">Spread the world</a>
+			</div>
+		</div>
+	</div><!--End jumbotron-->
+
+	<!--feedback-->
+	<div class="container">
+		<section>
+			<div class="page-header" id="feedback">
+				<h2>Feedback:<small>Check out the awesome feedback</small></h2>
+			</div>
+			<div class="row">
+				<div class="col-md-4">
+					<blockquote>
+						<p>worked well!</p>
+						<footer>mike</footer>
+					</blockquote>
+				</div>
+				<div class="col-md-4">
+					<blockquote>
+						<p>nice design, cool features:)</p>
+						<footer>John</footer>
+					</blockquote>
+				</div>
+				<div class="col-md-4">
+					<blockquote>
+						<p>I use it everyday^^</p>
+						<footer>Jack</footer>
+					</blockquote>
+				</div>
+			</div>
+		</section>
+	</div>
+
+	<!--call to action-->
+	<section>
+		<div class="well">
+			<div class="container text-center">
+				<h3>Subscribe for more free stuff</h3>
+				<p>Enter your name and email</p>
+				<form action="" class="form-inline">
+					<div class="form-group">
+						<label for="subscription">Subscribe</label>
+						<input type="text" class="form-control" id="subscription" placeholder="your name">
+					</div>
+					<div class="form-group">
+						<label for="email">Email address</label>
+						<input type="text" class="form-control" id="email" placeholder="your email">
+					</div>
+					<button type="submit" class="btn btn-primary">Subscribe</button>
+					<hr>
+				</form>
+			</div>
+		</div>
+	</section>
+
+	<!--gallery-->
+	<div class="container">
+		<section>
+			<div class="page-header" id="gallery">
+				<h2>Gallery:<small>Check out the awesome gallery</small></h2>
+			</div>
+
+			<div class="carousel slide" id="screenshot-carousel" data-ride="carousel">
+				<ol class="carousel-indicators">
+					<li data-target="#screenshot-carousel" data-slide-to="0" class="active"></li>
+					<li data-target="#screenshot-carousel" data-slide-to="1"></li>
+					<li data-target="#screenshot-carousel" data-slide-to="2"></li>
+					<li data-target="#screenshot-carousel" data-slide-to="3"></li>
+				</ol>
+
+				<div class="carousel-inner">
+					<div class="item active">
+						<img src="images/highway.jpg" alt="Text of the image">
+						<div class="carousel-caption">
+							<h3>Highway heading</h3>
+							<p>This is the caption</p>
+						</div>
+					</div>
+					<div class="item">
+						<img src="images/river.jpg" alt="Text of the image">
+						<div class="carousel-caption">
+							<h3>River heading</h3>
+							<p>This is the caption</p>
+						</div>
+					</div>
+					<div class="item">
+						<img src="images/street.jpg" alt="Text of the image">
+						<div class="carousel-caption">
+							<h3>Street heading</h3>
+							<p>This is the caption</p>
+						</div>
+					</div>
+					<div class="item">
+						<img src="images/painting.jpg" alt="Text of the image">
+						<div class="carousel-caption">
+							<h3>Painting heading</h3>
+							<p>This is the caption</p>
+						</div>
+					</div>
+				</div><!--End carousel inner-->
+
+				<a href="#screenshot-carousel" class="left carousel-control" data-slide="prev">
+					<span class="glyphicon glyphicon-chevron-left"></span>
+				</a>
+				<a href="#screenshot-carousel" class="right carousel-control" data-slide="next">
+					<span class="glyphicon glyphicon-chevron-right"></span>
+				</a>
+
+			</div><!--End carousel-->
+		</section>
+	</div><!--end gallery-->
+
+	<!--feature-->
+	<div class="container">
+		<section>
+			<div class="page-header" id="features">
+				<h2>Features:<small>Check out the awesome features</small></h2>
+			</div>
+
+			<div class="row">
+				<div class="col-sm-8">
+					<h3>iMac</h3>
+					<p>works on Apple devices</p>
+				</div>
+				<div class="col-sm-4">
+					<img src="images/imac.jpg" class="img-responsive" alt="image">
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-sm-4">
+					<h3>iPhone</h3>
+					<p>works on Apple devices</p>
+				</div>
+				<div class="col-sm-8">
+					<img src="images/smartphone.jpg" class="img-responsive" alt="image">
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-sm-8">
+					<h3>smartphones</h3>
+					<p>works on Apple devices</p>
+				</div>
+				<div class="col-sm-4">
+					<img src="images/user.jpg" class="img-responsive" alt="image">
+				</div>
+			</div><!--end row-->
+			<hr>
+
+			<div class="row">
+				<div class="col-sm-4">
+					<div class="panel panel-default text-center">
+						<div class="panel-body">
+							<span class="glyphicon glyphicon-ok"></span>
+							<h4>heading</h4>
+							<p>see more details see more details see more details</p>
+						</div>
+					</div>
+				</div>
+				<div class="col-sm-4">
+					<div class="panel panel-default text-center">
+						<div class="panel-body">
+							<span class="glyphicon glyphicon-star"></span>
+							<h4>heading</h4>
+							<p>see more details see more details</p>
+						</div>
+					</div>
+				</div>
+				<div class="col-sm-4">
+					<div class="panel panel-default text-center">
+						<div class="panel-body">
+							<span class="glyphicon glyphicon-apple"></span>
+							<h4>heading</h4>
+							<p>see more details</p>
+						</div>
+					</div>
+				</div>
+			</div><!--end row-->
+
+		</section>
+	</div><!--end feature-->
+
+	<!--FAQ-->
+	<div class="container">
+		<section>
+			<div class="page-header" id="FAQ">
+				<h2>FAQ:<small>Engaging with consumers</small></h2>
+			</div>
+
+			<div class="panel-group" id="accordion">
+				<div class="panel panel-info">
+					<div class="panel-heading">
+						<div class="panel-title">
+							<a href="#collapse-1" data-toggle="collapse" data-parent="#accordion">Question one?</a>
+						</div><!--end panel title-->
+						<div id="collapse-1" class="panel-collapse collapse in">
+							<div class="panel-body">
+								This is a question from one of our valuable customers..
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<div class="panel panel-default">
+					<div class="panel-heading">
+						<div class="panel-title">
+							<a href="#collapse-2" data-toggle="collapse" data-parent="#accordion">Question two?</a>
+						</div><!--end panel title-->
+						<div id="collapse-2" class="panel-collapse collapse">
+							<div class="panel-body">
+								This is another question from one of our valuable customers..
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<div class="panel panel-info">
+					<div class="panel-heading">
+						<div class="panel-title">
+							<a href="#collapse-3" data-toggle="collapse" data-parent="#accordion">Question three?</a>
+						</div><!--end panel title-->
+						<div id="collapse-3" class="panel-collapse collapse">
+							<div class="panel-body">
+								This is another question from one of our valuable customers..
+							</div>
+						</div>
+					</div>
+				</div>
+			</div><!--end panel group-->
+
+		</section>
+	</div><!--end FAQ-->
+
+	<!--contact-->
+	<div class="container">
+		<section>
+			<div class="page-header" id="contact">
+				<h2>Contact Us:<small>Please contact us for more info.</small></h2>
+			</div>
+
+			<div class="row">
+				<div class="col-lg-4">
+					<p>Send us the message or contact us from the address below</p>
+					<address>
+						<strong>Mr.Li Inc.</strong></br>
+						1111 100 street</br>
+						Brooklyn NY, 11111</br>
+						P: +168 8888888
+					</address>
+				</div>
+				<div class="col-lg-8">
+					<form action="" class="form-horizontal">
+						<div class="form-group">
+							<label for="user-name" class="col-lg-2 control-label">Name</label>
+							<div class="col-lg-10">
+								<input type="text" class="form-control" id="user-name" placeholder="Enter your name">
+							</div>
+						</div><!--form group-->
+
+						<div class="form-group">
+							<label for="user-name" class="col-lg-2 control-label">Email</label>
+							<div class="col-lg-10">
+								<input type="text" class="form-control" id="user-email" placeholder="Enter your email address">
+							</div>
+						</div><!--form group-->
+
+						<div class="form-group">
+							<label for="user-name" class="col-lg-2 control-label">your website</label>
+							<div class="col-lg-10">
+								<input type="text" class="form-control" id="user-email" placeholder="If you have any">
+							</div>
+						</div><!--form group-->
+
+						<div class="form-group">
+							<label for="user-name" class="col-lg-2 control-label">Message</label>
+							<div class="col-lg-10">
+								<textarea name="user-message" id="user-message" class="form-control" cols="20" rows="10" placeholder="Enter your message"></textarea>
+							</div>
+						</div><!--form group-->
+
+						<div class="form-group">
+							<div class="col-lg-10 col-lg-offset-2">
+								<button type="submit" class="btn btn-primary">Submit</button>
+							</div>
+						</div>
+
+					</form>
+				</div>
+			</div><!--end row-->
+
+		</section>
+	</div><!--end contact-->
+
+	<!--footer-->
+	<footer>
+		<hr>
+		<div class="container text-center">
+				<h3>Subscribe for more free stuff</h3>
+				<p>Enter your name and email</p>
+				<form action="" class="form-inline">
+					<div class="form-group">
+						<label for="subscription">Subscribe</label>
+						<input type="text" class="form-control" id="subscription" placeholder="your name">
+					</div>
+					<div class="form-group">
+						<label for="email">Email address</label>
+						<input type="text" class="form-control" id="email" placeholder="your email">
+					</div>
+					<button type="submit" class="btn btn-primary">Subscribe</button>
+				</form>
+		<hr>
+				<ul class="list-inline">
+					<li><a href="http://www.facebook.com/">Facebook</a></li>
+					<li><a href="http://www.twitter.com/">Twitter</a></li>
+					<li><a href="http://www.youtube.com/">YouTube</a></li>
+				</ul>
+				<p>&copy; Copyright @ 2015</p>
+
+		</div>
+	</footer>
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+	<!-- Latest compiled and minified JavaScript -->
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js" integrity="sha512-K1qjQ+NcF2TYO/eI3M6v8EiNYZfA95pQumfvcVrTHtwQVDG+aHRqLi/ETn2uB+1JqwYqVG3LIvdm9lj6imS/pQ==" crossorigin="anonymous"></script>  
+</body>	
+</html>
